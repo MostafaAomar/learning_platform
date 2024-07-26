@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="Home.css">
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+  <header>
+    <!-- Header content here -->
+    <h1>Online Learning Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="CourseDetails.html">Courses</a></li>
+        <li><a href="InstructorProfiles.html">Instructors</a></li>
+        <li><a href="Registration.html">Sign Up</a></li>
+        <li><a href="Login.html">Log In</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="search-bar">
+    <form action="/search" method="get">
+      <input type="text" name="query" placeholder="Search..." required>
+      <button type="submit">Search</button>
+    </form>
+  </section>
+  <section class="user-profile">
+    <div class="profile-header">
+      <h2>User Profile</h2>
+      <button class="btn btn-secondary">Edit Profile</button>
+    </div>
+    <div class="profile-details">
+      <div class="profile-picture">
+        <img src="course1.jpg" alt="Profile Picture">
+      </div>
+      <div class="profile-info">
+        <h3>John Doe</h3>
+        <p>Email: johndoe@example.com</p>
+        <p>Username: johndoe123</p>
+        <p>Location: New York, USA</p>
+        <p>Interests: Programming, Design, Music</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <!-- Footer content here -->
+    <p>&copy; 2023 Online Learning Platform. All rights reserved.</p>
+  </footer>
+</body>
+</html>

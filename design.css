@@ -1,0 +1,95 @@
+/* Add your custom styles here */
+
+/* Define general styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Define styles for desktop screens */
+  
+  .header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+  
+  .hero h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 36px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .feature {
+    flex-basis: 30%;
+    text-align: center;
+  }
+  
+  /* Define styles for mobile screens */
+  
+  @media (max-width: 768px) {
+    .navbar {
+      display: block;
+      text-align: center;
+    }
+  
+    .navbar li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .hero h1 {
+      padding-top: 100px;
+      font-size: 24px;
+    }
+  
+    .features {
+      flex-direction: column;
+    }
+  
+    .feature {
+      margin-bottom: 20px;
+    }
+  }
+  
