@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Learning Platform</title>
+  <link rel="stylesheet" href="Home.css">
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+  <header>
+    <h1>Online Learning Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="CourseDetails.html">Courses</a></li>
+        <li><a href="InstructorProfiles.html">Instructors</a></li>
+        <li><a href="Registration.html">Sign Up</a></li>
+        <li><a href="Login.html">Log In</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="search-bar">
+    <form action="/search" method="get">
+      <input type="text" name="query" placeholder="Search..." required>
+      <button type="submit">Search</button>
+    </form>
+  </section>
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Learn Anything, Anywhere</h2>
+      <p>Expand your knowledge with our wide range of online courses</p>
+      <a href="Registration.html" class="btn btn-primary">Get Started</a>
+    </div>
+  </section>
+
+  <section class="featured-courses">
+    <h2>Featured Courses</h2>
+    <div class="course-card">
+      <img src="course1.jpg" alt="Course 1">
+      <h3>Course 1 Title</h3>
+      <p>Instructor Name</p>
+      <a href="InstructorProfiles.html" class="btn btn-secondary">Enroll Now</a>
+    </div>
+    <div class="course-card">
+      <img src="course2.jpg" alt="Course 2">
+      <h3>Course 2 Title</h3>
+      <p>Instructor Name</p>
+      <a href="InstructorProfiles.html" class="btn btn-secondary">Enroll Now</a>
+    </div>
+    <!-- Add more course cards as needed -->
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Online Learning Platform. All rights reserved.</p>
+  </footer>
+</body>
+</html>
